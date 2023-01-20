@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -51,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
             //GameKontrol.IsHide2 = false;
             //GameKontrol.IsHide1 = false;
         }
+
         else if(other.gameObject.tag == "Disbale")
         {
             GameKontrol.IsHide = true;
